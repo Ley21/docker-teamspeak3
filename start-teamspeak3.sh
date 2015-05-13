@@ -18,6 +18,6 @@ fi
 
 export LD_LIBRARY_PATH=/data
 
-exec ./tsdns/ts3server_linux_amd64
+exec ./tsdns/tsdnsserver_linux_amd64 &
 exec ./ts3server_linux_amd64
 
