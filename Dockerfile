@@ -1,6 +1,6 @@
-FROM debian:wheezy
+FROM debian
 
-MAINTAINER aheil
+MAINTAINER ley21
 
 #ENV DEBIAN_FRONTEND noninteractive
 ENV TS_VERSION LATEST
