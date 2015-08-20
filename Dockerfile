@@ -16,7 +16,7 @@ RUN apt-get update \
 
 ADD start-teamspeak3.sh /start-teamspeak3
 
-EXPOSE 9987/udp 10011 30033
+EXPOSE 9987/udp 10011 30033 41144
 
 USER teamspeak3
 VOLUME /data
