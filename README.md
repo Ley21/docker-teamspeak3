@@ -18,6 +18,8 @@ will serve your TeamSpeak3 server on your host's port 9988/udp, 10011/tcp, 30033
 
 Speaking of multiple servers, it's handy to give your containers ecplicit names using `--name` as seen above.
 
+If there is no `ts3server.ini` present in the data directory, the server will be startet with `createinifile=1`. Subsequent runs will start with `inifile=/data/ts3server.ini`.
+
 ### First Run
 
 If you are starting the server for the first time, you need the Admin-Token:
